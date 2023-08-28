@@ -182,7 +182,7 @@ main .name {
 
 /* project */
 
-.project-container {
+.project-container {    
     margin-top: 100px;
     margin-left: 30px;
     margin-right: 30px;
@@ -481,6 +481,8 @@ main .name {
 
 /* skill */
 .skill-container {
+    /* opacity: 0;
+    transition: transform 1s ease, opacity 1s ease; */
     margin-top: 100px;
     margin-left: 30px;
     margin-right: 30px;
@@ -488,6 +490,13 @@ main .name {
     grid-template-columns: 1fr 1.3fr;
 }
 
+/* .skill-container:target {
+    opacity: 1;
+    transform: translateY(0);
+}
+.skill-container:not(:target) {
+    transform: translateY(100%);
+} */
 .skill-id {
     font-size: 75px;
     color: #222222;
