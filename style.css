@@ -7,9 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;    
 }
+html {    
+    scroll-behavior: smooth;
+}
+
 
 a {
     text-decoration: none;
@@ -148,7 +151,7 @@ main .hello ul {
     main {
         justify-content: space-between;
         height: 90vh;
-        padding-bottom: 50px;
+        padding-bottom: 80px;
         padding-right: 10px;
         padding-left: 10px;
     }
@@ -266,6 +269,12 @@ main .iam {
     text-align: center;
     overflow: hidden;
 }
+
+.project-content p {
+    position: absolute;
+    color: #222222;
+    z-index: 2;
+}
  
 .project-content a img {
     overflow: hidden;
@@ -273,7 +282,10 @@ main .iam {
 
 .one {
     grid-area: one;
+    /* display: flex;
+    flex-direction: column-reverse; */
 }
+
 .two {
     grid-area: two;
 }
@@ -377,6 +389,8 @@ main .iam {
     padding-top: 10px;     
     border-top: 1px dashed #222222;
 }
+
+
 .sub-card img {
     margin-left: 10px;
 }
