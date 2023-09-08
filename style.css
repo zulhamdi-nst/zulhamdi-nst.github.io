@@ -151,7 +151,7 @@ main .hello ul {
     main {
         justify-content: space-between;
         height: 90vh;
-        padding-bottom: 120px;
+        padding-bottom: 80px;
         padding-right: 10px;
         padding-left: 10px;
     }
