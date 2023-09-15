@@ -5,7 +5,7 @@ menuIcon.addEventListener('click', () => {
 })
 
 var typed = new Typed(".auto-type",{
-    strings: ['HELLO,','BONJOUR', 'HOLA,','NI HAO,'],
+    strings: ['HELLO,','BONJOUR,', 'HOLA,','NI HAO,'],
     typeSpeed: 150,
     backSpeed: 50,
     loop: true
