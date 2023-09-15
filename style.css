@@ -134,29 +134,43 @@ header .navbar ul {
         padding-right: 10px;
         padding-left: 10px;
         padding-top: 10px;
-        flex-wrap: wrap;
         
     }
+    .cv {
+        order: 1;
+    }
+    .navbar {
+        order: 5;
+    }
+    .contact-me {
+        order: 3;
+    }
+    .email {
+        order: 4;
+    }
+    #hamburger-menu {
+        order: 4;
+    }
     .navbar ul {
-        box-shadow: 0px 0px 10px #3e3e3e;
-        background-color: #e9e9e9;
+        top: 9.9vh;
+        left: 0;
+        margin-left: 50%;
+        width: 50%;
         position: absolute;
-        top: 10vh;
-        left: 0px;
-        width: 100%;
-        align-items: center;
+        box-shadow: 0 10px 10px 1px rgba(177, 177, 177, .5);        
+        background-color: #e9e9e9;
         flex-direction: column;
         z-index: 2;
         gap: 10px;
         padding: 10px;
-        
-
+        align-items: center;
     }
     .navbar a {
+        width: 100%;
+        margin-left: auto;
         justify-content: center;
         display: flex;
-        width: 100vh;
-        border-radius: 0px;        
+        border-radius: 5px;        
     }
 
     #hamburger-menu {
