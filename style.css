@@ -206,12 +206,12 @@ header .cv:active {
         margin: 0;
         width: auto;
     }
-    header .cv {
-        font-size: 1.3em;
+    /* header .cv {
+        font-size: 1.2em;
     }
     header .email {
         font-size: 1.2em;
-    }
+    } */
 
 }
 /* end header */
