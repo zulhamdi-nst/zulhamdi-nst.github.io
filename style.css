@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(68, 0, 82);
 }
 body {
     background-color: rgb(201, 214, 219);
@@ -236,6 +237,7 @@ main {
     animation-timing-function: linear;
     animation-name: moveScale2;
 }
+
 .halaman-1 {
     padding-right: 5%;
     padding-left: 5%;
@@ -253,6 +255,7 @@ main {
     font-size: 2em;
     color: #222222;
     margin-bottom: 30px;
+    color: rgb(68, 0, 82);
 }
 .halaman-1 p:nth-child(2) {
     margin-bottom: 10px;
@@ -303,10 +306,128 @@ main {
     justify-content: center;
     font-size: 1.5em;
     color: rgb(68, 0, 82);
+    margin-bottom: 20px;
+}
+.halaman-1 :nth-last-child(2) {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.halaman-1 :last-child {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.waktuDanTempat {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    color: #222222;
+}
+.waktuDanTempat .wdt-1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.waktuDanTempat .wdt-1 p:nth-child(1){
+    margin-bottom: 5px;
+}
+.waktuDanTempat .wdt-1 p:nth-child(3){
+    margin-top: 10px;
+    color: rgb(68, 0, 82);
+}
+.waktuDanTempat .wdt-1 p:nth-child(2) {
+    padding: 5px 15px;
+    background-color: #887BB0;
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.waktuDanTempat .wdt-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 5px solid #887bb0;
+    padding-left: 10px;
+    color: rgb(68, 0, 82);
+}
+
+.halaman-akhir {
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 1.3em;
+    color: rgb(68, 0, 82);
+}
+.halaman-akhir p:nth-child(1) {
+    margin-top: 20px;
+    text-indent: 40px;
+    text-align: justify;
+}
+.halaman-akhir p:nth-child(2) {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+.halaman-akhir p:nth-child(3){
+    display: flex;
+    justify-content: center;
+    color: rgb(68, 0, 82);
+
+}.halaman-akhir p:nth-child(4){
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(68, 0, 82);
+}
+.gambarAtasFooter {
+    position: relative;
+}
+.gambarAtasFooter img{
+    position: absolute;
+    min-height: 150px;
+    width: 150px;
+    rotate: -90deg;
+    top: -130px;
+    left: -10px;
+    z-index: 1;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;    
+    animation-timing-function: linear;
+    animation-name: animasiBungaTengah;
+
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
+    position: relative;
     height: 50px;
     background-color: #887BB0;
+    z-index: 2;
 }
