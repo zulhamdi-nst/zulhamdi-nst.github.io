@@ -225,6 +225,7 @@ header {
 }
 
 main {
+    position: relative;
     background-image: url(img/backgroundUndangan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -361,7 +362,9 @@ main {
     padding-left: 10px;
     color: rgb(68, 0, 82);
 }
-
+.waktuDanTempat .wdt-2 p:nth-last-child(){
+    height: 100px;
+}
 .maps {
     height: 100px;
     width: 100%;
@@ -420,6 +423,66 @@ main {
     animation-name: animasiBungaTengah;
 
 }
+
+/* main end */
+.bungaTengah {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+}
+.bungaTengah img:first-child {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    rotate: 60deg;
+    left: -110px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+    animation-timing-function: linear;
+    animation-name: animasiBungaTengah;
+}.bungaTengah img:last-child {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    rotate: -60deg;
+    left: 330px;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;    
+    animation-timing-function: linear;
+    animation-name: animasiBungaTengah;
+}
+.galeri p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 2.5em;
+    padding-bottom: 2px;
+    margin-bottom: 5%;
+    font-family: 'Lobster', cursive;
+    z-index: 2;
+}
+.galery {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 4px;
+}
+.galery img {
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid #887BB0;
+}
+.galery a {
+    width: 42%;
+}
+
 
 
 
