@@ -9,4 +9,9 @@ var typed = new Typed(".auto-type",{
     typeSpeed: 150,
     backSpeed: 50,
     loop: true
-})
+});
+
+// var store = document.getElementById("store"){
+// store.onclick = Function() {
+//     alert("STORE IS COMING SOON")
+// }};
